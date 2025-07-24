@@ -1,4 +1,4 @@
-#🤖 ZoreyAI – Your Playful Yet Powerful AI Assistant
+# 🤖 ZoreyAI – Your Playful Yet Powerful AI Assistant
 
 ![Build Status](https://img.shields.io/github/actions/workflow/status/merakitzam/ZoreyAI/deploy.yml?style=for-the-badge)
 ![License](https://img.shields.io/github/license/merakitzam/ZoreyAI?style=for-the-badge)
