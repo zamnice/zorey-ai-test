@@ -8,6 +8,11 @@
   <link rel="stylesheet" href="styles.css" />
   <script src="app.js" defer></script>
   <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/service-worker.js');
+  }
+  </script>
   <title>Zorey AI</title>
 </head>
 <body class="bg-yellow-50 text-brown-800 dark:bg-gray-900 dark:text-white">
