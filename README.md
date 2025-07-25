@@ -1,7 +1,7 @@
 # 🤖 ZoreyAI – Your Playful Yet Powerful AI Assistant
 
-![Build Status](https://img.shields.io/github/actions/workflow/status/merakitzam/ZoreyAI/deploy.yml?style=for-the-badge)
-![License](https://img.shields.io/github/license/merakitzam/ZoreyAI?style=for-the-badge)
+![Build Status](https://img.shields.io/github/actions/workflow/status/zamnice/zorey-ai-test/deploy.yml?style=for-the-badge)
+![License](https://img.shields.io/github/license/zamnice/zorey-ai-test?style=for-the-badge)
 ![Deploy to Netlify](https://img.shields.io/netlify/1234abcd-ef56-gh78-ijkl-90mnopqrstuv?label=Netlify%20Status&style=for-the-badge)
 ![PWA Ready](https://img.shields.io/badge/PWA-ready-orange?style=for-the-badge)
 
