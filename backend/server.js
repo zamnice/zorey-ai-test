@@ -13,7 +13,7 @@ app.post('/api/ask', async (req, res) => {
   const { prompt } = req.body;
 
   try {
-    const response = await fetch("https://generativelanguage.googleapis.com/v1beta/models/gemma-1.1:generateContent?key=" + process.env.GEMMA_API_KEY, {
+    const response = await fetch("https://generativelanguage.googleapis.com/v1beta/models/gemma-1.1-2b:generateContent?key=" + process.env.GEMMA_API_KEY, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }] })
