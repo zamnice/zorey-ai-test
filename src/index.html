@@ -7,6 +7,7 @@
   <link rel="manifest" href="/manifest.json" />
   <link rel="stylesheet" href="styles.css" />
   <script src="app.js" defer></script>
+  <script src="https://cdn.tailwindcss.com"></script>
   <title>Zorey AI</title>
 </head>
 <body class="bg-yellow-50 text-brown-800 dark:bg-gray-900 dark:text-white">
@@ -15,6 +16,11 @@
     <p class="mb-2">Apa yang bisa aku bantu?</p>
     <div id="chat-window" class="h-96 overflow-y-auto border p-2 mb-2 rounded"></div>
     <div class="flex">
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
       <input type="text" id="user-input" placeholder="Tanya apa aja..." class="flex-1 p-2 border rounded" />
       <button id="send-btn" class="ml-2 bg-orange-500 text-white px-3 py-2 rounded">Kirim</button>
     </div>
